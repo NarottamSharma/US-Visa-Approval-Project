@@ -1,5 +1,5 @@
-from us_visa.constants import *
+from us_visa.pipline.training_pipeline import TrainPipeline
 
-print(DATABASE_NAME)  # US_VISA
 
-print(COLLECTION_NAME)  # visa_data
+pipeline = TrainPipeline()
+pipeline.run_pipeline()
